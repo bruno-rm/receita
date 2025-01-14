@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <form>
+        <div class="container">
+            <div>
+                <h1>Receita de Pão</h1>
+            </div>
+            <div>
+                <label for="qFarinha">Quantidade de farinha</label>
+                <input placeholder="500" id="qFarinha" type="text" name="qFarinha">
+            </div>
+            <div>
+                <h2>Porcentagens</h2>
+            </div>
+            <div>
+                <label  for="pFIntegral">Farinha integral</label>
+                <input placeholder="30" required id="pFIntegral" type="text" name="pFIntegral">
+            </div>
+            <div>
+                <label for="pAgua">Água</label>
+                <input placeholder="68" type="text" id="pAgua" name="pAgua">
+            </div>
+            <div>
+                <label for="pSal">Sal</label>
+                <input placeholder="2" type="text" id="pSal" name="pSal">
+            </div>
+            <div>
+                <label for="pFNatural">Fermento natural</label>
+                <input placeholder="30" type="text" id="pFNatural" name="pFNatural">
+            </div>
+            <div>
+                <label for="pFInstantaneo">Fermento instantâneo</label>
+                <input placeholder="0,2" type="text" id="pFInstantaneo" name="pFInstantaneo">
+            </div>
+            <div>
+                <h2>Receita</h2>
+            </div>
+            <div>
+                Farinha: <span id="farinha" class="valor"></span>
+            </div>
+            <div>
+                Farinha integral: <span id="farinhaIntegral" class="valor"></span>
+            </div>
+            <div>
+                Água: <span id="agua" class="valor"></span>
+            </div>
+            <div>
+                Sal: <span id="sal" class="valor"></span>
+            </div>
+            <div>
+                Fermento natrual: <span id="fermentoNatural" class="valor"></span>
+            </div>
+            <div>
+                Fermento instantâneo: <span id="fermentoInstantaneo" class="valor"></span>
+            </div>
+
+            <div>
+                <button type="button" id="calcular">Calcular</button>
+            </div>
+            
+
+        </div>
+        
+
+        
+        
+
+        
+
+        
+
+    </form>
+    <script src="./receita.js"></script>
+</body>
+</html>

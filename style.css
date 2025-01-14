@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #51513d;
+    color: #1b2021;
+    font-family: "IBM Plex Mono", serif;;
+}
+
+.container {
+    max-width: 500px;
+    /* width: 50%; */
+    background-color: #a6a867;
+    padding: 25px 30px;
+    border-radius: 5px;
+
+}
+
+input {
+    width: 35px;
+    background-color: #e3dcc2;
+    border-radius: 5px;
+}
+
+button {
+    margin: 10px 0px;
+    background-color: #e3dcc2;
+    color: #1b2021;
+    font-weight: bold;
+    width: 100%;
+
+}
