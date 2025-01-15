@@ -42,6 +42,24 @@ document.getElementById("calcular").onclick = function() {
         fermentoInstantaneo.textContent = qFarinha*(pFInstantaneo/100) + " gramas";           
     }        
     fermentoNatural.textContent = qFarinha*(pFNatural/100) + " gramas";
+
+    // document.getElementById("copiar").onclick = function() {
+    //     var text = document.getElementById('receita').innerText;
+    //     navigator.clipboard.writeText(text).then(() => {
+    //     console.log('Content copied to clipboard');
+    //     /* Resolved - text copied to clipboard successfully */
+    //     },() => {
+    //     console.error('Failed to copy');
+    //     /* Rejected - text failed to copy to the clipboard */
+    //     });
+    // }
+
+    document.getElementById("copiar").onclick = function() {
+        var text = document.getElementById('receita').innerText;
+        navigator.clipboard.writeText(text);
+    }
+
+    
     
 }
 
